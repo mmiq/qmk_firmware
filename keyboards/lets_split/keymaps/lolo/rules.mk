@@ -1,0 +1,14 @@
+RGBLIGHT_ENABLE = yes
+EXTRAKEY_ENABLE = yes
+SWAP_HANDS_ENABLE = yes
+SLEEP_LED_ENABLE = yes
+SPLIT_KEYBOARD = yes
+#NKRO_ENABLE = yes
+VELOCIKEY_ENABLE = no
+AUTO_SHIFT_ENABLE = no
+AUDIO_ENABLE = no
+MUSIC_ENABLE = on
+
+ifndef QUANTUM_DIR
+	include ../../../../Makefile
+endif
